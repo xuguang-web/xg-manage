@@ -28,7 +28,7 @@
 
 <script setup lang="ts" name="import">
 import { UploadProps } from 'element-plus';
-import { ref, reactive } from 'vue';
+import { ref } from 'vue';
 import * as XLSX from 'xlsx';
 
 interface TableItem {
