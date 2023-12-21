@@ -14,6 +14,6 @@
     "skipLibCheck": true
   },
   "types": ["vite/client", "@vue/runtime-core"],
-  "include": ["src/**/*.ts", "src/**/*.d.ts","src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/api/index.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

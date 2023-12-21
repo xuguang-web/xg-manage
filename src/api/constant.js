@@ -1,0 +1,1 @@
+export const BASE_SERVICE = "http://localhost:8000";

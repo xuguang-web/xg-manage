@@ -155,6 +155,16 @@ const routes: RouteRecordRaw[] = [
                 },
                 component: () => import('../views/canvas/galaxy/index.vue'),
             },
+            {
+                path: '/test',
+                name: 'test',
+                meta: {
+                    title: '测试页面',
+                    permiss: '2',
+                },
+                component: () => import('../views/test/index.vue'),
+            },
+            
         ],
     },
     {
